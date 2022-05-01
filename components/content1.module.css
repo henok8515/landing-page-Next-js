@@ -1,0 +1,62 @@
+.container{
+    width: 1440px;
+    height: 742px;
+    background: #A8FF35;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.h1{
+    width: 854px;
+    font-family: Effra;
+font-size: 82px;
+font-weight: 900;
+line-height: 86px;
+letter-spacing: 0em;
+text-align: center;
+padding-top: 140px;
+
+}
+.card{
+width: 502px;
+height: 202px;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #F5F5F5;
+border-radius: 16px;
+
+}
+.insideCard{
+width: 341.23px;
+height: 82px;
+background: #030303;
+border: 1px solid black;
+
+}
+.p{
+    font-family: Roboto;
+font-size: 24px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+
+}
+.h3{
+
+font-family: 'Effra';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+/* or 27px */
+text-align: center;
+color: #000000;
+width: 666px;
+height: 54px;
+margin-top: 30px;
+
+}
