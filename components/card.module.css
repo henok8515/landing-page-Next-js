@@ -1,0 +1,16 @@
+.container{
+
+  
+align-items: center;
+align-content: center;
+    background: #FAFAFA;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px 20px;
+}
+.card{
+height: 120px;
+    background: #F5F5F5;
+    border-radius: 8px;
+    border: 1px solid black;
+}
