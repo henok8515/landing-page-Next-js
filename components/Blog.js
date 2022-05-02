@@ -7,7 +7,9 @@ function Blog() {
       <h1 className={styles.h1}>All platform connect to Findtrend</h1>
       <div className={styles.cardContainer}>
         {Data.map((data) => (
-          <div className={styles.card}>{data}</div>
+          <div key={data} className={styles.card}>
+            {data}
+          </div>
         ))}
       </div>
       <div className={styles.tweet}></div>

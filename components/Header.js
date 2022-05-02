@@ -17,7 +17,7 @@ function Header() {
       <div className={styles.navs}>
         <ul className={styles.li}>Login</ul>
         <button className={styles.button1}>Register</button>
-        <div className={styles.spanContainer}>
+        <div key={Tittle.length++} className={styles.spanContainer}>
           <span className={styles.span} />
           <span className={styles.span} />
           <span className={styles.span} />
