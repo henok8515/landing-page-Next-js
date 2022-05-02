@@ -13,9 +13,9 @@ function Content() {
       <button className={styles.button}>Get Started 🔥</button>
       <div className={styles.boxContainer}>
         <div className={styles.a}>Cryptopunk - Search</div>
-        <div className={styles.b}>b</div>
-        <div className={styles.c}>c </div>
-        <div className={styles.d}>d </div>
+        <div className={styles.b}>Popular Design - Search</div>
+        <div className={styles.c}>Product Design - Search </div>
+        <div className={styles.d}>Elon Musk - Search</div>
       </div>
     </div>
   );

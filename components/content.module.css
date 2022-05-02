@@ -48,7 +48,7 @@ font-size: 17px;
 .boxContainer{
     margin-top: 150px;
     width: 100vw;
-    border: 1px solid wheat;
+
     height: 200px;
     display: flex;
     justify-content: center;
@@ -85,7 +85,16 @@ color: #FFFFFF;
 
     
     background: #181818;
-    transform: rotate(2deg);
+    transform: rotate(2deg);    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
     
 }
 .c{ position: absolute;
@@ -95,7 +104,16 @@ color: #FFFFFF;
     top: 20px;
 
     background: #181818;
-    transform: rotate(-2deg);
+    transform: rotate(-2deg);    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
     
 }
 .d{position: absolute;
@@ -108,5 +126,14 @@ color: #FFFFFF;
     background: #181818;
     transform: rotate(4deg);
     
-transform: rotate(4deg);
+transform: rotate(4deg);    font-family: Roboto;
+font-size: 24px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+display: flex;  
+justify-content: center;
+align-items: center;
+color: #FFFFFF;
 }

@@ -12,5 +12,13 @@ align-content: center;
 height: 120px;
     background: #F5F5F5;
     border-radius: 8px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    height: 100px;
+    width: 100px;
+    background-size: cover;
 }

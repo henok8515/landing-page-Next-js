@@ -1,3 +1,4 @@
+import Blog from "./Blog";
 import Card from "./Card";
 import Content from "./Content";
 import Content1 from "./Content1";
@@ -13,6 +14,7 @@ function HomePage() {
       <Content1 />
       <Motto />
       <Card />
+      <Blog />
     </div>
   );
 }

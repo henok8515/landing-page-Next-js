@@ -1,0 +1,42 @@
+.container{
+width: 1440px;
+height: 2209px;
+padding-top: 100px;
+background: #FAFAFA;
+display: flex;
+flex-direction: column;
+}
+.h1{
+
+height: 76px;
+font-family: 'Effra';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 76px;
+/* identical to box height */
+text-align: center;
+color: #000000;
+}
+.card{
+width: 100px;
+height: 124px;
+background: #A8FF35;
+border-radius: 8px;
+border: 1px solid black;
+
+}
+.cardContainer{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr   ;
+gap: 0;
+}
+.tweet{
+
+width: 800px;
+height: 274px;
+left: 320px;
+top: 3735px;
+
+
+}
