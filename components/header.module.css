@@ -37,6 +37,9 @@ margin-bottom: 100px;
     color: #FFFFFF;
     
 }
+.li:hover{
+    text-decoration: white underline;
+}
 .navs{
     margin: 10px 10px;
     display: flex;
