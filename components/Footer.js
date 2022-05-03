@@ -14,7 +14,9 @@ function Footer() {
       </div>
       <div className={styles.content}>
         {Data.map((li) => (
-          <ul className={styles.ul}>{li}</ul>
+          <ul key={li} className={styles.ul}>
+            {li}
+          </ul>
         ))}
       </div>
     </div>

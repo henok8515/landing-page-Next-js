@@ -45,7 +45,7 @@ function Deal() {
       </div>
       <div className={styles.cardContainer}>
         {Data.map((data) => (
-          <div className={styles.card}>
+          <div key={data.id} className={styles.card}>
             <h1 className={styles.title}>{data.title}</h1>
             <h4 className={styles.subTitle}>{data.subTitle}</h4>
             <hr />
