@@ -1,0 +1,44 @@
+.container{
+
+width: 1440px;
+height: 100px;
+background: #FFFFFF;    
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.content{
+    display: flex;
+    margin-right: 200px;
+}
+.ul{
+    font-family: Effra;
+font-size: 18px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.circle{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #000000;
+
+}
+.logo{
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+}
+.h1{
+    font-family: Inter;
+font-size: 24px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+margin-left:15px;
+
+}

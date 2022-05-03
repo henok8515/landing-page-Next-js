@@ -1,5 +1,15 @@
 import styles from "./header.module.css";
-let Tittle = ["About", "How it works", "price", "Solution", "Feature"];
+let Tittle = [
+  {
+    id: 1,
+    name: "About",
+  },
+  { id: 2, name: "How it works" },
+  { id: 3, name: "price" },
+  { id: 4, name: "Solution" },
+  { id: 5, name: "Feature" },
+  ,
+];
 function Header() {
   return (
     <div className={styles.container}>
@@ -9,8 +19,8 @@ function Header() {
       </div>
       <div className={styles.list}>
         {Tittle.map((li) => (
-          <div>
-            <ul className={styles.li}>{li}</ul>
+          <div key={li.id}>
+            <ul className={styles.li}>{li.name}</ul>
           </div>
         ))}
       </div>

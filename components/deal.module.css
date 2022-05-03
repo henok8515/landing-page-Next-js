@@ -1,0 +1,176 @@
+.container{
+width: 1440px;
+height: 1128px;
+left: 0px;
+top: 5447px;
+border: 1px solid black;
+background: #000000;
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+
+}
+.h1{
+padding-top:70px;
+width: 1160px;
+height: 76px;
+text-align: center;
+
+font-family: 'Effra';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 76px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.span{
+  
+width: 94px;
+height: 29px;
+
+margin: 0px 30px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+
+}
+.button{
+    display: flex;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.key{
+width: 90px;
+height: 45px;
+left: 679px;
+top: calc(50% - 52px/2 + 2122px);
+
+background: #FFFFFF;
+border-radius: 99px;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+.circle{
+
+width: 36px;
+height: 36px;
+left: 687px;
+top: calc(50% - 36px/2 + 2122px);
+
+background: #A8FF35;
+border-radius: 99px;
+}
+.cardContainer{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 50px 0px;
+}
+.card{
+
+width: 360px;
+height: 640px;
+left: 140px;
+top: 5795px;
+
+background: #FAFAFA;
+border-radius: 16px;
+transition: all 1s ease;
+}
+.title{
+    padding-left: 20px;
+    font-family: Effra;
+font-size: 36px;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.subTitle{
+    padding-left: 20px;
+
+    font-family: Effra;
+font-size: 18px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.price{
+    font-family: Effra;
+font-size: 64px;
+font-weight: 500;
+line-height: 64px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.priceContainer{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.offer{
+    font-family: Effra;
+font-size: 18px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.p{
+    font-family: Effra;
+font-size: 18px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.desc{
+    margin: 20px 20px;
+}
+.button1{
+    margin-top: 100px;
+border:  none;
+width: 296px;
+height: 58px;
+left: 172px;
+top: 6353px;
+background: #A8FF35;
+border-radius: 29px;
+font-family: Effra;
+font-size: 18px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: center;
+transition: all 1s ease;        
+
+}
+.card:hover{
+    background-color: #A8FF35;
+    
+}
+.button1:hover{
+    background-color: #FAFAFA;
+ 
+}

@@ -1,6 +1,32 @@
 import styles from "./blog.module.css";
+import Image from "next/image";
+const Data = [
+  {
+    name: "facebook",
+  },
+  {
+    name: "dribbble",
+  },
 
-let Data = [1, 2, 3, 4, 5, 6, 7, 8];
+  {
+    name: "instagram",
+  },
+  {
+    name: "linkedin",
+  },
+  {
+    name: "github",
+  },
+  {
+    name: "reddit",
+  },
+  {
+    name: "pinterest",
+  },
+  {
+    name: "twitter",
+  },
+];
 function Blog() {
   return (
     <div className={styles.container}>
@@ -8,11 +34,14 @@ function Blog() {
       <div className={styles.cardContainer}>
         {Data.map((data) => (
           <div key={data} className={styles.card}>
-            {data}
+            <Image src={`/${data.name}.png`} height="60" width="60" />
           </div>
         ))}
       </div>
       <div className={styles.tweet}></div>
+      <div className={styles.tweet1}></div>
+      <div className={styles.tweet}></div>
+      <button className={styles.button}>View More Trend </button>
     </div>
   );
 }
