@@ -14,7 +14,9 @@ function Header() {
   return (
     <div className={styles.container}>
       <div className={styles.logo}>
-        <div className={styles.icon} />
+        <div className={styles.icon}>
+          <img className={styles.flash} alt="" src="/thunder.png" />
+        </div>
         <h1 className={styles.h1}>Findtrend</h1>
       </div>
       <div className={styles.list}>

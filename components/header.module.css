@@ -66,6 +66,10 @@ height: 30px;
 width: 30px;
 border-radius: 50%;
 background: #A8FF35;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 10px;
 
 }
 
@@ -79,4 +83,8 @@ background: #A8FF35;
     justify-content: space-between;
     height: 30px;
     flex-direction: column  ;
+}
+.flash{
+    height: 70% ;
+    width: 70%;
 }

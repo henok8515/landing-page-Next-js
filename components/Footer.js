@@ -9,7 +9,9 @@ function Footer() {
   return (
     <div className={styles.container}>
       <div className={styles.logo}>
-        <div className={styles.circle} />
+        <div className={styles.circle}>
+          <img className={styles.flash} alt="" src="/flash.png" />
+        </div>
         <h1 className={styles.h1}>Findtrend</h1>
       </div>
       <div className={styles.content}>
