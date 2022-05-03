@@ -7,6 +7,7 @@ display: flex;
 justify-content: space-between;
 flex-direction: column;
 align-items: center;
+padding-top: 120px;
 }
 .h1{
 
@@ -26,4 +27,12 @@ color: #000000;
 }
 .span{
     opacity: 0.8   ;
+}
+.tweet{
+    position: absolute;
+width: 800px;
+height: 274px;
+left: 320px;
+top: 3735px;
+
 }
