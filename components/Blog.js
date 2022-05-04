@@ -34,7 +34,7 @@ function Blog() {
       <div className={styles.cardContainer}>
         {Data.map((data) => (
           <div key={data} className={styles.card}>
-            <Image alt="img" src={`/${data.name}.png`} height="60" width="60" />
+            <Image alt="img" src={`/${data.name}.png`} height="30" width="30" />
           </div>
         ))}
       </div>

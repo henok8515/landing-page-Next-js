@@ -11,7 +11,7 @@ function Motto() {
           an application that can fulfill your daily browsing needs.
         </span>
       </h1>
-      <h1 className={styles.h1}>Findtrend make +1000 Startup grow</h1>
+      <h2 className={styles.h2}>Findtrend make +1000 Startup grow</h2>
     </div>
   );
 }

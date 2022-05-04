@@ -91,3 +91,19 @@ margin-right: 10px;
     height: 70% ;
     width: 70%;
 }
+@media only screen and (max-width: 600px) {
+.list{
+    display: none;
+
+}
+.navs{
+    display: none;
+}
+.h1{
+    display: none;
+
+}
+.logo{
+    margin: 5px 10px;
+}
+    }
