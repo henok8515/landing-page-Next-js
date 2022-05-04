@@ -80,7 +80,49 @@ border-radius: 99px;
     justify-content: space-around;
     width: 80%;
     margin: 50px 0px;
+   
 }
+@media only screen and (max-width: 600px) {
+.container{
+    width: 375px;
+height: 2213px;
+left: 0px;
+top: 3926px;
+
+background: #000000;
+}
+.h1{
+    font-family: Effra;
+font-size: 36px;
+font-weight: 400;
+line-height: 43px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 339px;
+    height: 602px;
+    margin: 10px 20px;
+
+}
+.price{
+    font-family: Effra;
+font-size: 60px;
+font-weight: 500;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+ 
+  }
 .card{
 
 width: 360px;
@@ -166,12 +208,13 @@ text-align: center;
 transition: all 1s ease;        
 
 }
-.card:hover{
+/* .card:hover  {
     background-color: #A8FF35;
     transform: scale(1.1);
     
-}
+} */
 .button1:hover{
-    background-color: #FAFAFA;
+    background-color: #000000;
+    color: #FFFFFF;
  
 }

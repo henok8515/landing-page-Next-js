@@ -23,3 +23,10 @@ height: 120px;
     width: 100px;
     background-size: cover;
 }
+
+@media only screen and (max-width: 600px) {
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

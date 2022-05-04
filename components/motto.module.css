@@ -13,7 +13,6 @@ padding-top: 120px;
 
 width: 1160px;
 height: 76px;
-
 font-family: 'Effra';
 font-style: normal;
 font-weight: 700;
@@ -25,14 +24,67 @@ line-height: 76px;
 color: #000000;
 
 }
+.h2{
+    width: 1160px;
+height: 76px;
+font-family: 'Effra';
+font-style: normal;
+font-weight: 7  00;
+font-size: 64px;
+line-height: 76px;
+/* identical to box height */
+
+
+color: #000000;
+}
 .span{
     opacity: 0.8   ;
 }
-.tweet{
+/* .tweet{
     position: absolute;
 width: 800px;
 height: 274px;
 left: 320px;
 top: 3735px;
 
+} */
+
+@media only screen and (max-width: 600px) {
+.h1{
+ 
+    margin-left: 30px;
+    width: 360px;
+    height: 86px;
+    font-family: 'Effra';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 43px;
+    letter-spacing: 2px;
+    color: #000000;
+}
+.span{
+    opacity: 0.7;
+}
+.container{
+    display: flex;
+align-items: flex-start;
+}
+.h2{
+    width: 335px;
+height: 86px;
+left: 20px;
+top: 1980px;
+
+font-family: 'Effra';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 43px;
+text-align: center;
+
+color: #000000;
+text-align: center;
+margin-left: 10px;
+}
 }
