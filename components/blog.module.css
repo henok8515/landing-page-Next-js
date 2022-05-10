@@ -47,7 +47,7 @@ height: 274px;
 left: 320px;
 top: 3735px;
     
-background-image: url('../Assets/twwet.png');
+background-image: url('../Assets/tweet1.png');
 background-size: cover;
 justify-content: center;
 align-items: center;
@@ -62,8 +62,8 @@ width: 800px;
 height: 804px;
 left: 322px;
 top: 4052px;
-margin-top: 20px;
-background-image: url('../Assets//twwet.1.png');
+margin: 20px;
+background-image: url('../Assets/tweet.png');
 
 
 }
