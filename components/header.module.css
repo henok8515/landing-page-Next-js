@@ -5,7 +5,7 @@ justify-content: space-between;
 height: 90px;
 align-items: center;
 margin-bottom: 100px;
-
+text-transform: capitalize;
 }
 .button1{
     height: 42px;
@@ -13,7 +13,6 @@ margin-bottom: 100px;
     left: 1151px;
     top: 28px;
     border-radius: 40px;
-    padding: 12px, 32px, 12px, 32px;
     border: none;
     background: #FFFFFF;
     font-family: Effra;
@@ -22,7 +21,8 @@ margin-bottom: 100px;
     line-height: 18px;
     letter-spacing: 0em;
     text-align: center;
-    
+    cursor: pointer;
+    margin-left: 50px;
     
 }
 .list{
