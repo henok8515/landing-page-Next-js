@@ -45,6 +45,7 @@
   padding-top: 50px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .key {
   width: 90px;
@@ -69,7 +70,7 @@
 }
 .cardContainer {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   width: 80%;
   margin: 50px 0px;
 }
@@ -96,11 +97,7 @@
     justify-content: center;
     align-items: center;
   }
-  .card {
-    width: 339px;
-    height: 602px;
-    margin: 10px 20px;
-  }
+
   .price {
     font-family: Effra;
     font-size: 60px;
@@ -119,6 +116,7 @@
   background: #fafafa;
   border-radius: 16px;
   transition: all 1s ease;
+  margin: 15px;
 }
 .title {
   padding-left: 20px;
@@ -139,6 +137,7 @@
   letter-spacing: 0em;
   text-align: left;
 }
+
 .price {
   font-family: Effra;
   font-size: 64px;

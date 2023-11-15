@@ -1,8 +1,8 @@
 import styles from "./motto.module.css";
 
-function Motto() {
+function Motto({ id }) {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id={id}>
       <h1 className={styles.h1}>
         Findtrend helps you to increase your productivity and reduce your
         computer memory load,

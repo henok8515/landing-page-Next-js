@@ -41,6 +41,7 @@
   background: #a8ff35;
   border: none;
   font-size: 17px;
+  cursor: pointer;
 }
 .boxContainer {
   margin-top: 50px;

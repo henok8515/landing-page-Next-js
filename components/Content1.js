@@ -1,8 +1,8 @@
 import styles from "./content1.module.css";
 
-function Content1() {
+function Content1({ id }) {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id={id}>
       <h1 className={styles.h1}>Open new tabs is sh*t </h1>
       <div className={styles.card}>
         <div className={styles.insideCard}>

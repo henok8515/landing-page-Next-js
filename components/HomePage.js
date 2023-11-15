@@ -14,7 +14,7 @@ function HomePage() {
     <div className={styles.container}>
       <Header />
       <Content />
-      <Content1 />
+      <Content1 id="section1" />
       <Motto />
       <Card />
       <Blog />
