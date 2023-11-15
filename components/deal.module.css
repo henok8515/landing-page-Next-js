@@ -1,220 +1,199 @@
-.container{
-width: 1440px;
-height: 1128px;
-left: 0px;
-top: 5447px;
-border: 1px solid black;
-background: #000000;
-display: flex;
-flex-direction: column;
-text-align: center;
-align-items: center;
-
+.container {
+  height: 1128px;
+  left: 0px;
+  top: 5447px;
+  border: 1px solid black;
+  background: #000000;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
 }
-.h1{
-padding-top:70px;
-width: 1160px;
-height: 76px;
-text-align: center;
+.h1 {
+  padding-top: 70px;
+  width: 1160px;
+  height: 76px;
+  text-align: center;
 
-font-family: 'Effra';
-font-style: normal;
-font-weight: 700;
-font-size: 64px;
-line-height: 76px;
-/* identical to box height */
+  font-family: "Effra";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 76px;
+  /* identical to box height */
 
-text-align: center;
+  text-align: center;
 
-color: #FFFFFF;
-
+  color: #ffffff;
 }
-.span{
-  
-width: 94px;
-height: 29px;
+.span {
+  width: 94px;
+  height: 29px;
 
-margin: 0px 30px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 29px;
-/* identical to box height */
+  margin: 0px 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
 
-
-color: #FFFFFF;
-
-
+  color: #ffffff;
 }
-.button{
-    display: flex;
-    padding-top: 50px;
-    display: flex;
-    align-items: center;
+.button {
+  display: flex;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
 }
-.key{
-width: 90px;
-height: 45px;
-left: 679px;
-top: calc(50% - 52px/2 + 2122px);
+.key {
+  width: 90px;
+  height: 45px;
+  left: 679px;
+  top: calc(50% - 52px / 2 + 2122px);
 
-background: #FFFFFF;
-border-radius: 99px;
-display: flex;
-align-items: center;
-justify-content: flex-start;
+  background: #ffffff;
+  border-radius: 99px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
-.circle{
+.circle {
+  width: 36px;
+  height: 36px;
+  left: 687px;
+  top: calc(50% - 36px / 2 + 2122px);
 
-width: 36px;
-height: 36px;
-left: 687px;
-top: calc(50% - 36px/2 + 2122px);
-
-background: #A8FF35;
-border-radius: 99px;
+  background: #a8ff35;
+  border-radius: 99px;
 }
-.cardContainer{
-    display: flex;
-    justify-content: space-around;
-    width: 80%;
-    margin: 50px 0px;
-   
+.cardContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 50px 0px;
 }
 @media only screen and (max-width: 600px) {
-.container{
+  .container {
     width: 375px;
-height: 2213px;
-left: 0px;
-top: 3926px;
+    height: 2213px;
+    left: 0px;
+    top: 3926px;
 
-background: #000000;
-}
-.h1{
+    background: #000000;
+  }
+  .h1 {
     font-family: Effra;
-font-size: 36px;
-font-weight: 400;
-line-height: 43px;
-letter-spacing: 0em;
-text-align: center;
-
-}
-.cardContainer{
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .cardContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.card{
+  }
+  .card {
     width: 339px;
     height: 602px;
     margin: 10px 20px;
-
-}
-.price{
-    font-family: Effra;
-font-size: 60px;
-font-weight: 500;
-line-height: 60px;
-letter-spacing: 0em;
-text-align: left;
-
-}
- 
   }
-.card{
-
-width: 360px;
-height: 640px;
-left: 140px;
-top: 5795px;
-
-background: #FAFAFA;
-border-radius: 16px;
-transition: all 1s ease;
-}
-.title{
-    padding-left: 20px;
+  .price {
     font-family: Effra;
-font-size: 36px;
-font-weight: 500;
-line-height: 36px;
-letter-spacing: 0em;
-text-align: left;
-
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
 }
-.subTitle{
-    padding-left: 20px;
+.card {
+  width: 360px;
+  height: 640px;
+  left: 140px;
+  top: 5795px;
 
-    font-family: Effra;
-font-size: 18px;
-font-weight: 400;
-line-height: 18px;
-letter-spacing: 0em;
-text-align: left;
+  background: #fafafa;
+  border-radius: 16px;
+  transition: all 1s ease;
+}
+.title {
+  padding-left: 20px;
+  font-family: Effra;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.subTitle {
+  padding-left: 20px;
 
+  font-family: Effra;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
 }
-.price{
-    font-family: Effra;
-font-size: 64px;
-font-weight: 500;
-line-height: 64px;
-letter-spacing: 0em;
-text-align: left;
-
+.price {
+  font-family: Effra;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
 }
-.priceContainer{
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
+.priceContainer {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
 }
-.offer{
-    font-family: Effra;
-font-size: 18px;
-font-weight: 400;
-line-height: 18px;
-letter-spacing: 0em;
-text-align: left;
-
+.offer {
+  font-family: Effra;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
 }
-.p{
-    font-family: Effra;
-font-size: 18px;
-font-weight: 400;
-line-height: 18px;
-letter-spacing: 0em;
-text-align: left;
-
+.p {
+  font-family: Effra;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
 }
-.desc{
-    margin: 20px 20px;
+.desc {
+  margin: 20px 20px;
 }
-.button1{
-    margin-top: 100px;
-border:  none;
-width: 296px;
-height: 58px;
-left: 172px;
-top: 6353px;
-background: #A8FF35;
-border-radius: 29px;
-font-family: Effra;
-font-size: 18px;
-font-weight: 700;
-line-height: 25px;
-letter-spacing: 0em;
-text-align: center;
-transition: all 1s ease;        
-
+.button1 {
+  margin-top: 100px;
+  border: none;
+  width: 296px;
+  height: 58px;
+  left: 172px;
+  top: 6353px;
+  background: #a8ff35;
+  border-radius: 29px;
+  font-family: Effra;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  transition: all 1s ease;
 }
 /* .card:hover  {
     background-color: #A8FF35;
     transform: scale(1.1);
     
 } */
-.button1:hover{
-    background-color: #000000;
-    color: #FFFFFF;
- 
+.button1:hover {
+  background-color: #000000;
+  color: #ffffff;
 }

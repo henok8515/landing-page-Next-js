@@ -1,44 +1,38 @@
-.container{
-
-width: 1440px;
-height: 784px;
-background: #FFFFFF;
-display: flex;
-justify-content: space-between;
-flex-direction: column;
-align-items: center;
-padding-top: 120px;
+.container {
+  height: 784px;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 120px;
 }
-.h1{
+.h1 {
+  width: 1160px;
+  height: 76px;
+  font-family: "Effra";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 76px;
+  /* identical to box height */
 
-width: 1160px;
-height: 76px;
-font-family: 'Effra';
-font-style: normal;
-font-weight: 700;
-font-size: 64px;
-line-height: 76px;
-/* identical to box height */
-
-
-color: #000000;
-
+  color: #000000;
 }
-.h2{
-    width: 1160px;
-height: 76px;
-font-family: 'Effra';
-font-style: normal;
-font-weight: 7  00;
-font-size: 64px;
-line-height: 76px;
-/* identical to box height */
+.h2 {
+  width: 1160px;
+  height: 76px;
+  font-family: "Effra";
+  font-style: normal;
+  font-weight: 7 00;
+  font-size: 64px;
+  line-height: 76px;
+  /* identical to box height */
 
-
-color: #000000;
+  color: #000000;
 }
-.span{
-    opacity: 0.8   ;
+.span {
+  opacity: 0.8;
 }
 /* .tweet{
     position: absolute;
@@ -50,41 +44,40 @@ top: 3735px;
 } */
 
 @media only screen and (max-width: 600px) {
-.h1{
- 
+  .h1 {
     margin-left: 30px;
     width: 360px;
     height: 86px;
-    font-family: 'Effra';
+    font-family: "Effra";
     font-style: normal;
     font-weight: 900;
     font-size: 40px;
     line-height: 43px;
     letter-spacing: 2px;
     color: #000000;
-}
-.span{
+  }
+  .span {
     opacity: 0.7;
-}
-.container{
+  }
+  .container {
     display: flex;
-align-items: flex-start;
-}
-.h2{
+    align-items: flex-start;
+  }
+  .h2 {
     width: 335px;
-height: 86px;
-left: 20px;
-top: 1980px;
+    height: 86px;
+    left: 20px;
+    top: 1980px;
 
-font-family: 'Effra';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 43px;
-text-align: center;
+    font-family: "Effra";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
 
-color: #000000;
-text-align: center;
-margin-left: 10px;
-}
+    color: #000000;
+    text-align: center;
+    margin-left: 10px;
+  }
 }

@@ -1,83 +1,77 @@
-.container{
-
-width: 1440px;
-height: 100px;
-background: #FFFFFF;    
-display: flex;
-align-items: center;
-justify-content: space-between;
+.container {
+  height: 100px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.content{
-    display: flex;
-    margin-right: 200px;
+.content {
+  display: flex;
+  margin-right: 200px;
 }
-.ul{
-    font-family: Effra;
-font-size: 18px;
-font-weight: 400;
-line-height: 18px;
-letter-spacing: 0em;
-text-align: center;
-cursor: pointer;
-transition: all 1s ease-in-out;
-
+.ul {
+  font-family: Effra;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
 }
-.ul:hover{
-    text-decoration: underline;
+.ul:hover {
+  text-decoration: underline;
 }
-.circle{
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    background: #000000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+.circle {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.logo{
-    margin-left: 80px;
-    display: flex;
-    align-items: center;
+.logo {
+  margin-left: 80px;
+  display: flex;
+  align-items: center;
 }
-.h1{
-    font-family: Inter;
-font-size: 24px;
-font-weight: 700;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: center;
-margin-left:15px;
-
+.h1 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-left: 15px;
 }
-.flash{
-    height: 70%;
-    width: 70%;
+.flash {
+  height: 70%;
+  width: 70%;
 }
 @media only screen and (max-width: 600px) {
-    .container{
-        display: flex;
-        flex-direction: column;
+  .container {
+    display: flex;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     height: auto;
     padding-left: 100px;
     text-align: start;
-    }
-    .content{
-        display: flex;
-        flex-direction: column;
-    }
-    .ul{
-        font-family: Effra;
-font-size: 18px;
-font-weight: 400;
-line-height: 18px;
-letter-spacing: 0em;
-text-align: center;
-
-    }
-    .logo{
-        margin: 10px;
-    }
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+  .ul {
+    font-family: Effra;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .logo {
+    margin: 10px;
+  }
 }

@@ -1,158 +1,148 @@
-.container{
-width: 1440px;
-height: 2209px;
-padding-top: 100px;
-background: #FAFAFA;
-display: flex;
+.container {
+  height: 2209px;
+  padding-top: 100px;
+  background: #fafafa;
+  display: flex;
 
-flex-direction: column;
-justify-content: center;
-align-items: center;
-
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.h1{
-
-height: 76px;
-font-family: 'Effra';
-font-style: normal;
-font-weight: 700;
-font-size: 64px;
-line-height: 76px;
-/* identical to box height */
-text-align: center;
-color: #000000;
+.h1 {
+  height: 76px;
+  font-family: "Effra";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 76px;
+  /* identical to box height */
+  text-align: center;
+  color: #000000;
 }
-.card{
-
-    width: 124px;
-    height: 124px;
-    left: 0px;
-    top: 0px;
-    background: #FAFAFA;
-    border-radius: 8px;
-margin: 20px 10px;
-display: flex;
-justify-content: center ;
-align-items: center;
-transition: all 1s ease;
-
+.card {
+  width: 124px;
+  height: 124px;
+  left: 0px;
+  top: 0px;
+  background: #fafafa;
+  border-radius: 8px;
+  margin: 20px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s ease;
 }
-.cardContainer{
-display: flex;
-justify-content: center;
+.cardContainer {
+  display: flex;
+  justify-content: center;
 }
-.tweet{
-width: 800px;
-height: 274px;
-left: 320px;
-top: 3735px;
-    
-background-image: url('../Assets/tweet1.png');
-background-size: cover;
-justify-content: center;
-align-items: center;
-margin-bottom: 20px;
+.tweet {
+  width: 800px;
+  height: 274px;
+  left: 320px;
+  top: 3735px;
+
+  background-image: url("../Assets/tweet1.png");
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
-.card:hover{
-    background: #A8FF35;
+.card:hover {
+  background: #a8ff35;
 }
-.tweet1{
-
-width: 800px;
-height: 804px;
-left: 322px;
-top: 4052px;
-margin: 20px;
-background-image: url('../Assets/tweet.png');
-
-
+.tweet1 {
+  width: 800px;
+  height: 804px;
+  left: 322px;
+  top: 4052px;
+  margin: 20px;
+  background-image: url("../Assets/tweet.png");
 }
-.button{
-    margin-top: 100px;
-    display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 16px 32px;
+.button {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
 
-font-family: 'Effra';
-font-style: normal;
-font-weight: 700;
-font-size: 17px;
-line-height: 140%;
-/* or 25px */
+  font-family: "Effra";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 140%;
+  /* or 25px */
 
-text-align: center;
+  text-align: center;
 
-color: #FFFFFF;
+  color: #ffffff;
 
-width: 198px;
-height: 57px;
-left: 621px;
-top: 5250px;
+  width: 198px;
+  height: 57px;
+  left: 621px;
+  top: 5250px;
 
-background: #000000;
-border-radius: 40px;
+  background: #000000;
+  border-radius: 40px;
 }
 
 @media only screen and (max-width: 600px) {
-.container{
-  display: flex;
-  flex-direction: column;
-width: 100%;
-height: 982px;
-left: 0px;
-top: 2868px;
-
-background: #FAFAFA;
-}
-.h1{
-    font-family: Effra;
-font-size: 36px;
-font-weight: 400;
-line-height: 43px;
-letter-spacing: 0em;
-text-align: center;
-
-}
-.card{
-    width: 64px;
-height: 64px;
-left: 0px;
-top: 0px;
-
-background: #FFFFFF;
-border-radius: 8px;
-}
-.tweet{
-    width: 450px;
-height: 406px;
-background-size: cover;
-}
-.tweet1{
-    width: 339px;
-height: 904px;
-background-size: cover;
-margin: 0;
-
-}
-.button{
+  .container {
     display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 12px 24px;
-width: 152px;
-height: 44px;
-left: 118px;
-top: 3802px;
-font-family: 'Effra';
-font-style: normal;
-font-weight: 700;
-font-size:12px;
-line-height: 140%;
+    flex-direction: column;
+    width: 100%;
+    height: 982px;
+    left: 0px;
+    top: 2868px;
 
-background: #000000;
-border-radius: 40px;
-}
+    background: #fafafa;
+  }
+  .h1 {
+    font-family: Effra;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .card {
+    width: 64px;
+    height: 64px;
+    left: 0px;
+    top: 0px;
+
+    background: #ffffff;
+    border-radius: 8px;
+  }
+  .tweet {
+    width: 450px;
+    height: 406px;
+    background-size: cover;
+  }
+  .tweet1 {
+    width: 339px;
+    height: 904px;
+    background-size: cover;
+    margin: 0;
+  }
+  .button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    width: 152px;
+    height: 44px;
+    left: 118px;
+    top: 3802px;
+    font-family: "Effra";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 140%;
+
+    background: #000000;
+    border-radius: 40px;
+  }
 }
